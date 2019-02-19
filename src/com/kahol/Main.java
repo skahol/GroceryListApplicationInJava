@@ -69,6 +69,10 @@ public class Main {
     private static void findItem(){
         System.out.print("Enter item :");
         String searchItem=scanner.nextLine();
-        System.out.println(Grocery.findItem(searchItem)+" has been found.");
+         if(searchItem!=null)
+            System.out.println(Grocery.findItem(searchItem)+" has been found.");
+        else
+            System.out.println("Item you are looking for is not in the list.");
+
     }
 }
