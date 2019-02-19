@@ -58,7 +58,7 @@ public class Main {
         scanner.nextLine(); // clearing buffer
         System.out.println("Enter the item :");
         String modifyWith=scanner.nextLine();
-        Grocery.modifyGroceryItem(index,modifyWith);
+        Grocery.modifyGroceryItem(index-1,modifyWith);
     }
     private static void removeItem(){
         System.out.print("Enter item index :");
