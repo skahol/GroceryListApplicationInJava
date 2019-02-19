@@ -64,7 +64,7 @@ public class Main {
         System.out.print("Enter item index :");
         int index=scanner.nextInt();
         scanner.nextLine();
-        groceryList.removeGroceryItem(index);
+        groceryList.removeGroceryItem(index-1);
     }
     private static void findItem(){
         System.out.print("Enter item :");
